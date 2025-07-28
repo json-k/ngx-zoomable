@@ -7,6 +7,9 @@ Zoomable is a component for Angular that serves as a container for other compone
 ```bash
 npm install ngx-zoomable --save
 ```
+## Demo
+
+Here: https://json-k.github.io/ngx-zoomable/
 
 ## Use
 
