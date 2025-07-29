@@ -1,6 +1,17 @@
 {
   "name": "ngx-zoomable",
   "version": "0.9.0",
+  "description": "An Angular component for zooming and panning child components.",
+  "author": "Jase",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/json-k/ngx-zoomable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/json-k/ngx-zoomable/issues"
+  },
+  "homepage": "https://github.com/json-k/ngx-zoomable",
+  "license": "GPL-3.0-only",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
