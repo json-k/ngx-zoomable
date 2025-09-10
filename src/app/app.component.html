@@ -7,6 +7,8 @@
     <button fancyButton="#ed0" (click)="zoompanel.zoomOut()"> ZOOM - [OUT] </button>
     <button fancyButton="#9d5" (click)="zoompanel.setZoom(1)"> ZOOM - [1x] </button>
     <button fancyButton="#4d8" (click)="zoompanel.setZoom(20)"> ZOOM - [20x] </button>
+    <button fancyButton="#2cb" (click)="video.play()"> Play Video </button>
+    <button fancyButton="#0bc" (click)="video.pause()"> Stop Video </button>
     <p class="text">Ngx-Zoomable Demo ( <a href="https://github.com/json-k/ngx-zoomable">Git</a> )</p>
     
   </nav>
@@ -94,7 +96,7 @@
       [y]=1000
       [w]=2000
       [h]=500>
-    <video width="480" height="270" ngxZoomable autoplay loop muted
+    <video width="480" height="270" ngxZoomable autoplay loop muted #video
       style="border: 1px solid #c66;"
       [x]=1540
       [y]=-20
